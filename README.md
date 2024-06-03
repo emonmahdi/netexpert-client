@@ -1,3 +1,3 @@
 # Net Expert Bd
 
-[netExpert](./src/assets/netexpert.png)
+![netExpert](./src/assets/netexpert.png)
