@@ -1,0 +1,34 @@
+.slider-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/b-2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.hero-area {
+  text-align: center;
+}
+.hero-area h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.hero-area p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.hero-area button {
+  border: none;
+  background-color: #2099c9;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.hero-area button:hover {
+  background-color: #020a0e;
+  color: #fff;
+}

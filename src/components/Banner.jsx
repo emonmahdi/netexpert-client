@@ -1,7 +1,13 @@
+import "./Banner.css";
+
 const Banner = () => {
   return (
-    <div>
-      <h2>Banner Section</h2>
+    <div className="slider-banner">
+      <div className="hero-area">
+        <h1>Welcome to my Networking World.</h1>
+        <p>Some thing new from ours..</p>
+        <button>GET More</button>
+      </div>
     </div>
   );
 };
