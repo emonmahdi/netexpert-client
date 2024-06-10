@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import logo from "../../assets/net-logo.png";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -19,16 +20,20 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-[#1995AD] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
+    <div className="bg-[#fff] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">netExpert</h1>
+      <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+        <a href="">
+          <img src={logo} width="180" height="auto" alt="" />
+        </a>
+      </h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black"
+            className="p-4 hover:bg-[#1995AD] rounded-xl m-2 cursor-pointer duration-300  text-black"
           >
             {item.text}
           </li>
