@@ -13,9 +13,9 @@ const Navbar = () => {
   // Array containing navigation items
   const navItems = [
     { id: 1, text: "Home" },
-    { id: 2, text: "Company" },
-    { id: 3, text: "Resources" },
-    { id: 4, text: "About" },
+    { id: 2, text: "About" },
+    { id: 3, text: "Services" },
+    { id: 4, text: "Blogs" },
     { id: 5, text: "Contact" },
   ];
 
@@ -33,7 +33,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 hover:bg-[#1995AD] rounded-xl m-2 cursor-pointer duration-300  text-black"
+            className="p-4 hover:bg-[#2099c9] rounded-xl m-2 cursor-pointer duration-300  text-black hover:text-white"
           >
             {item.text}
           </li>
@@ -42,7 +42,11 @@ const Navbar = () => {
 
       {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? (
+          <AiOutlineClose style={{ color: "#000" }} size={20} />
+        ) : (
+          <AiOutlineMenu style={{ color: "#000" }} size={20} />
+        )}
       </div>
 
       {/* Mobile Navigation Menu */}
@@ -62,7 +66,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600"
+            className="p-4 border-b rounded-xl hover:bg-[#2099c9] duration-300 hover:text-white cursor-pointer border-gray-600"
           >
             {item.text}
           </li>
