@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="mb-4 text-lg font-bold">Contact</h2>
-            <h3>Md. Kawsar Hamd (017xxxxxxxxx)</h3>
+            <h3>Md. Kawsar Hamd (01729-201335)</h3>
             <p>
               Office address: Uday Cottage 4th floor , Shadinata Sarani , Uttar
               Badda

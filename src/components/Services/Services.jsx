@@ -74,31 +74,28 @@ const Services = () => {
       <div className="bg-service-area"></div>
       <div className="service-top text-center text-black py-4">
         <h2 className="text-3xl font-bold mb-2">Services</h2>
-        <p>Best service quality in the world</p>
       </div>
       <div className="all-services py-5 grid lg:grid-cols-4 gap-4 md:grid-cols-2 sm:grid-cols-1">
         {services.map((service) => {
           const { title, id, icon } = service;
           return (
-            <>
-              <div
-                key={id}
-                className="single-service bg-white p-4 rounded-md text-center  cursor-pointer"
-              >
-                <img
-                  className="mx-auto"
-                  src={icon}
-                  width="40px"
-                  height="40px"
-                  alt=""
-                />
-                <h3 className="text-2xl py-2 font-bold">{title} </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsum, harum.
-                </p>
-              </div>
-            </>
+            <div
+              key={id}
+              className="single-service bg-white p-4 rounded-md text-center  cursor-pointer"
+            >
+              <img
+                className="mx-auto"
+                src={icon}
+                width="40px"
+                height="40px"
+                alt=""
+              />
+              <h3 className="text-xl py-2 font-bold">{title} </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
+                harum.
+              </p>
+            </div>
           );
         })}
       </div>

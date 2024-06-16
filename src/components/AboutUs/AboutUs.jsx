@@ -17,6 +17,12 @@ const AboutUs = () => {
             activities using their IT infrastructure with cost effective
             solutions. We take utmost care to meet the customer`s requirements
           </p>
+          <button
+            className="mt-5 bg-[#60c2a4] hover:bg-[#020a0e] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="button"
+          >
+            View Details
+          </button>
         </div>
         <div className="text-center">
           <img className="mx-auto" src={about} alt="" />

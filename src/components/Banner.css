@@ -24,11 +24,24 @@
 }
 .hero-area button {
   border: none;
-  background-color: #2099c9;
+  background-color: #60c2a4;
   padding: 10px 30px;
   border-radius: 10px;
 }
 .hero-area button:hover {
   background-color: #020a0e;
   color: #fff;
+}
+
+@media (max-width: 420px) {
+  .slider-banner {
+    height: 130vh;
+  }
+  .hero-area h1 {
+    font-size: 30px;
+  }
+  .hero-area p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 }

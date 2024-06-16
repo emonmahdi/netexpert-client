@@ -15,11 +15,11 @@ const ContactUs = () => {
             <h2 className="text-2xl font-bold mb-4">Contact </h2>
             <p className="mb-2">
               <span className="font-bold">Address:</span> Uday Cottage 4th floor
-              , Shadinata Sarani , Uttar Badda
+              , Shadinata Sarani , Uttar Badda, Dhaka
             </p>
             <p className="mb-2">
               {" "}
-              <span className="font-bold">Phone: </span> (123) 456-7890
+              <span className="font-bold">Phone: </span> 01729-201335
             </p>
             <p className="mb-2">
               {" "}
@@ -79,7 +79,7 @@ const ContactUs = () => {
               </div>
               <div className="mb-4">
                 <button
-                  className="bg-[#2099c9] hover:bg-[#020a0e] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="bg-[#60c2a4] hover:bg-[#020a0e] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="button"
                 >
                   Send Message

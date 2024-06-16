@@ -4,6 +4,7 @@ import ContactUs from "./components/Contact/ContactUs";
 import Services from "./components/Services/Services";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
+import "./App.css";
 
 function App() {
   return (
