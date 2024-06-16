@@ -11,6 +11,10 @@
   font-family: calibri;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* .slider-banner {
   display: flex;
   justify-content: center;

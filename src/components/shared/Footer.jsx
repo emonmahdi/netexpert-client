@@ -8,10 +8,9 @@ const Footer = () => {
           <div>
             <h2 className="mb-4 text-lg font-bold">Net Expert</h2>
             <p>
-              SSM Communication was established in 2018 as an IT infrastructure
-              & Solutions company with a team of dedicated and experienced
-              professional. Have any project on mind or any query about project,
-              feel free to contact.
+              Net Expert BD was established in 2021 as an IT infrastructure &
+              Solutions company with a team of dedicated and experienced
+              professional
             </p>
           </div>
           <div>
@@ -35,9 +34,10 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="mb-4 text-lg font-bold">Contact</h2>
+            <h3>Md. Kawsar Hamd (017xxxxxxxxx)</h3>
             <p>
-              Office : address : Md. Kawsar Hamd, Uday Cottage 4th floor ,
-              Shadinata Sarani , Uttar Badda
+              Office address: Uday Cottage 4th floor , Shadinata Sarani , Uttar
+              Badda
             </p>
           </div>
         </div>

@@ -1,9 +1,21 @@
 #services-section {
-  background: url("./../../assets/feature-map.png");
+  /* background: url("./../../assets/feature-map.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;*/
   height: auto;
   padding: 30px 40px;
   overflow: hidden;
+  background-color: #eee;
+  width: 100%;
+  margin: 0 auto;
+}
+.single-service {
+  border-bottom: 3px solid #60c2a4;
+  border-radius: 10px;
+}
+.single-service:hover {
+  background-color: #60c2a4;
+  color: #fff;
+  transition: 0.3s all ease-in;
 }
