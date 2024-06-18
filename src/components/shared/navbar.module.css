@@ -1,0 +1,15 @@
+/* Only for setting up the element */
+.navbarOffset {
+  padding: 10em;
+}
+
+/* Only for styling */
+.content {
+  background-color: #333;
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+/* Fix the navbar to the screen to create the sticky effect */
+.stickyFixed {
+  position: fixed;
+}
