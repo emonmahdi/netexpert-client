@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../../assets/net-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -12,15 +13,15 @@ const Navbar = () => {
   };
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: "Home" },
-    { id: 2, text: "About" },
-    { id: 3, text: "Services" },
-    { id: 4, text: "Blogs" },
-    { id: 5, text: "Contact" },
+    { id: 1, text: "Home", link: "/" },
+    { id: 2, text: "About", link: "/about" },
+    { id: 3, text: "Services", link: "/services" },
+    { id: 4, text: "Blogs", link: "/blog" },
+    { id: 5, text: "Contact", link: "/contact" },
   ];
 
   return (
-    <div className="bg-[#fff] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
+    <div className="bg-[#fff] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white border-b-2 border-blue-400">
       {/* Logo */}
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         <a href="">
@@ -35,7 +36,7 @@ const Navbar = () => {
             key={item.id}
             className="p-4 hover:bg-[#2099c9] rounded-xl m-2 cursor-pointer duration-300  text-black hover:text-white"
           >
-            {item.text}
+            <Link to={`${item.link}`}>{item.text}</Link>
           </li>
         ))}
       </ul>
