@@ -1,0 +1,14 @@
+#top-title {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/hills.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  color: #fff;
+  padding: 70px 40px;
+}
+
+.about-title {
+  font-size: 30px;
+}
