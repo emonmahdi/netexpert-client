@@ -7,6 +7,7 @@
 1. #1995AD,
 2. #A1D6E2,
 3. #F1F1F2
+4. #60C2A4 -- Active
  -->
 
  <!-- <swiper-container

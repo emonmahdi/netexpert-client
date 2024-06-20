@@ -12,3 +12,12 @@
 .about-title {
   font-size: 30px;
 }
+
+@media (max-width: 600px) {
+  #top-title {
+    height: 50vh;
+  }
+  .about-title {
+    font-size: 24px;
+  }
+}
