@@ -18,7 +18,7 @@ const AboutPage = () => {
           <div className="about-desc grid lg:grid-cols-2 md:grid-cols-1 gap-4 items-center justify-between">
             <div>
               <h3 className="font-bold text-2xl mb-6">
-                We are no. 1 internet service provider company in United States.
+                We are no. 1 internet provider company in Bangladesh.
               </h3>
               <p>
                 Net Expert BD was established in 2021 as an IT infrastructure &
