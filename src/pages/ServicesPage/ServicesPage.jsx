@@ -92,13 +92,15 @@ const ServicesPage = () => {
                 key={id}
                 className="single-service bg-white p-4 rounded-md text-center  cursor-pointer"
               >
-                <img
-                  className="mx-auto"
-                  src={icon}
-                  width="40px"
-                  height="40px"
-                  alt=""
-                />
+                <div className="icon-img">
+                  <img
+                    className="mx-auto"
+                    src={icon}
+                    width="40px"
+                    height="40px"
+                    alt=""
+                  />
+                </div>
                 <h3 className="text-xl py-2 font-bold">{title} </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
