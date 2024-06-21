@@ -8,6 +8,7 @@
 2. #A1D6E2,
 3. #F1F1F2
 4. #60C2A4 -- Active
+5. #605CB8
  -->
 
  <!-- <swiper-container

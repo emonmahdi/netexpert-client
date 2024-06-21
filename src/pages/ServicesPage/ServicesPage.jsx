@@ -12,6 +12,8 @@ import { FaServer } from "react-icons/fa";
 import { MdLockOutline } from "react-icons/md";
 import { FiVideoOff } from "react-icons/fi";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
+import Accordion from "../../components/ui/Accordion";
+import img from "../../assets/DataCenter_netexpert.jpg";
 
 const services = [
   {
@@ -218,6 +220,49 @@ const ServicesPage = () => {
                 consectetur.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* Accordion */}
+      <div className="faq-section px-12 py-16">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 items-center justify-between">
+          <div>
+            <h4 className="font-bold mb-8">Frequently Asked Questions</h4>
+            <Accordion title="What types of internet service do you offer?">
+              <p>
+                We offer a range of internet services including DSL,
+                fiber-optic, and cable internet.
+              </p>
+            </Accordion>
+            <Accordion title="What internet speeds are available in my area?">
+              <p>
+                Internet speeds vary by location. Please enter your address on
+                our website to see available plans and speeds in your area.
+              </p>
+            </Accordion>
+            <Accordion title="How can I check if your service is available at my address?">
+              <p>
+                You can check service availability by entering your address on
+                our website or contacting our customer service team.
+              </p>
+            </Accordion>
+            <Accordion title="What equipment do I need to get started with your internet service?">
+              <p>
+                Typically, you will need a modem and a router compatible with
+                our service. We can provide these devices for a fee or you may
+                choose to use your own compatible equipment.
+              </p>
+            </Accordion>
+            <Accordion title="Do you offer bundles with TV and phone services?">
+              <p>
+                Yes, we offer bundled packages that include internet, TV, and
+                phone services. Visit our website or contact us for more
+                details.
+              </p>
+            </Accordion>
+          </div>
+          <div>
+            <img className="rounded-lg" src={img} alt="" />
           </div>
         </div>
       </div>
