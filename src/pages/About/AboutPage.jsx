@@ -46,21 +46,13 @@ const AboutPage = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Mission</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum dolore soluta earum eius odio molestias assumenda
-                ipsam facere perferendis incidunt, eligendi culpa dolorem
-                maiores velit quis ipsa aspernatur. Sit porro eveniet illo illum
-                saepe commodi excepturi cum numquam architecto est.
+              Our mission as Internet Service Experts is to deliver fast, reliable, and secure internet solutions tailored to meet the unique needs of our clients. We strive to provide exceptional service through a combination of cutting-edge technology, professional expertise, and dedicated customer support. Our goal is to ensure seamless connectivity for businesses and individuals alike, enabling them to stay connected to what matters most. We are committed to staying at the forefront of the ever-evolving digital landscape by continuously upgrading our skills and infrastructure. Whether its setting up complex networks, optimizing internet speeds, or troubleshooting connectivity issues, we approach each challenge with a solution-oriented mindset. Our team of experts works tirelessly to exceed customer expectations, offering personalized service that guarantees satisfaction. With us, you can trust that your internet service needs are in capable hands.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Vision</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum dolore soluta earum eius odio molestias assumenda
-                ipsam facere perferendis incidunt, eligendi culpa dolorem
-                maiores velit quis ipsa aspernatur. Sit porro eveniet illo illum
-                saepe commodi excepturi cum numquam architecto est.
+              Our vision is to revolutionize internet services by setting new standards for connectivity, reliability, and customer satisfaction. We aim to be the leading provider of internet solutions, empowering businesses and individuals to reach their full potential in a digitally connected world. We envision a future where high-speed internet is accessible to all, fostering innovation, collaboration, and growth. We are dedicated to leveraging the latest technologies and best practices to create a seamless online experience. By investing in advanced infrastructure and prioritizing customer needs, we aspire to offer internet services that are not just fast and reliable but also secure and user-friendly. Our focus is on building long-term relationships with our clients, becoming a trusted partner in their digital journey.
               </p>
             </div>
           </div>
@@ -77,8 +69,7 @@ const AboutPage = () => {
                 </span>
                 <h4 className="font-bold my-4">Free Installations & Setup</h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum.
+                Enjoy hassle-free internet service with complimentary installation and setup, ensuring you are quickly connected and ready to go.
                 </p>
               </div>
               {/* single item */}
@@ -89,8 +80,7 @@ const AboutPage = () => {
                 </span>
                 <h4 className="font-bold my-4">Up to 1 Gpbs Download Speed</h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum.
+                Experience ultra-fast internet with download speeds up to 1 Gbps for seamless streaming, gaming, and browsing.
                 </p>
               </div>
               {/* single item */}
@@ -101,8 +91,7 @@ const AboutPage = () => {
                 </span>
                 <h4 className="font-bold my-4">24/7 Customer Support </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum.
+                Get round-the-clock assistance from our dedicated support team, ensuring help is always available when you need it.
                 </p>
               </div>
             </div>

@@ -18,63 +18,63 @@ import img from "../../assets/DataCenter_netexpert.jpg";
 const services = [
   {
     id: 1,
-    title: "IT Infrastructure Consultancy",
+    title: "IT Infrastructure Consultancy 2",
     icon: `${icon1}`,
-    desc: "",
+    desc: "Unlock the full potential of your IT systems with our expert consultancy services. We specialize in designing, implementing, and optimizing IT infrastructure tailored to your business needs.",
   },
   {
     id: 2,
     title: "Private cloud consultancy",
     icon: `${icon2}`,
-    desc: "",
+    desc: "Expert private cloud consultancy to design, deploy, and optimize secure, scalable cloud solutions tailored to your business needs.",
   },
   {
     id: 3,
     title: "Network Infrastructure Solution",
     icon: `${icon3}`,
-    desc: "",
+    desc: "Comprehensive network infrastructure solutions for robust, secure, and scalable connectivity. Expert design, implementation, and optimization for your business needs.",
   },
   {
     id: 4,
     title: "Structured Cabling",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Professional structured cabling services for efficient, organized, and scalable network infrastructure. Expert installation and management tailored to your business.",
   },
   {
     id: 5,
     title: "Secured WIFI Solution",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Robust secured WiFi solutions providing reliable, encrypted connectivity. Expert design and implementation to ensure safe, high-performance wireless networks.",
   },
   {
     id: 6,
     title: "CCTV Solution",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Comprehensive CCTV solutions offering advanced surveillance for enhanced security. Expert installation and integration for clear, reliable monitoring of your premises.",
   },
   {
     id: 7,
     title: "AI Camera Solution",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Cutting-edge AI camera solutions for intelligent surveillance. Advanced analytics and real-time monitoring to enhance security and operational efficiency.",
   },
   {
     id: 8,
     title: "Remote management service",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Efficient remote management services for IT systems, offering proactive support, monitoring, and maintenance to ensure optimal performance and security.",
   },
   {
     id: 9,
     title: "Operating System Management",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Expert operating system management for seamless updates, security, and performance. Proactive support to ensure stability and efficiency for your systems.",
   },
   {
     id: 10,
     title: "Mikrotik, Cisco & Linux Training",
     icon: `${icon4}`,
-    desc: "",
+    desc: "Learn comprehensive networking skills with expert-led training on Mikrotik, Cisco, and Linux. Enhance your IT knowledge and career prospects.",
   },
 ];
 
@@ -86,7 +86,7 @@ const ServicesPage = () => {
       <div className="py-12 px-10 bg-gray-200">
         <div className="all-services py-5 grid lg:grid-cols-4 gap-4 md:grid-cols-2 sm:grid-cols-1 ">
           {services.map((service) => {
-            const { title, id, icon } = service;
+            const { title, id, icon, desc } = service;
             return (
               <div
                 key={id}
@@ -103,8 +103,7 @@ const ServicesPage = () => {
                 </div>
                 <h3 className="text-xl py-2 font-bold">{title} </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ipsum, harum.
+                  {desc}
                 </p>
               </div>
             );
@@ -128,8 +127,7 @@ const ServicesPage = () => {
                 Own FTP Server
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Enjoy secure, private file storage and easy access with your own dedicated FTP server.
               </p>
             </div>
           </div>
@@ -146,8 +144,7 @@ const ServicesPage = () => {
                 Upgrade or Downgrade
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Easily adjust your plan anytime to better suit your needs, with flexible upgrade or downgrade options.
               </p>
             </div>
           </div>
@@ -164,8 +161,7 @@ const ServicesPage = () => {
                 No Hard Data Limit
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Enjoy unlimited internet usage without worrying about data caps or extra charges.
               </p>
             </div>
           </div>
@@ -182,8 +178,7 @@ const ServicesPage = () => {
                 Access to All Website
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Browse freely without restrictions and access all websites anytime with unrestricted internet access.
               </p>
             </div>
           </div>
@@ -200,8 +195,7 @@ const ServicesPage = () => {
                 Lock in Low Rates
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Secure your internet service at today`s low rates with no unexpected price hikes.
               </p>
             </div>
           </div>
@@ -218,8 +212,7 @@ const ServicesPage = () => {
                 No Video Streaming
               </h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                consectetur.
+              Limitations on video streaming ensure optimized bandwidth for other internet activities.
               </p>
             </div>
           </div>

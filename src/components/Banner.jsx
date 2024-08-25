@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="slider-banner">
       <div className="hero-area">
         <h1 className="text-5xl font-bold">
-          There is Now Way to Become a Internet User
+          There is Now Way to Become a Internet Expert
         </h1>
         <p>Now a Days Internet Is a Useful Thing, Not Passion</p>
         <button>GET More</button>
