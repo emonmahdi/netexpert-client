@@ -21,7 +21,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-[#fff] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white border-b-2 border-blue-400 flex-no-wrap w-full overflow-hidden">
+    <div className="bg-[#fff] flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white border-b-2 border-blue-400 flex-no-wrap w-full overflow-hidden z-10">
       {/* Logo */}
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         <a href="">
@@ -54,7 +54,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-0 w-[80%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed md:hidden left-0 top-0 w-[80%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 z-10"
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
