@@ -1,14 +1,41 @@
-.slider-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/b-2.webp");
+.slider-banner { 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
   color: #fff;
+  width: 100%;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+}
+.banner1{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../assets/b-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.banner2{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://images.unsplash.com/photo-1554941426-a965fb2b9258?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.banner3{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://media.istockphoto.com/id/1368834732/photo/virtual-global-network.jpg?s=2048x2048&w=is&k=20&c=HGpT83nEftomfm_Mb48kvkyPvn4oolvY8Gg0aisVLlw=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.banner4{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://media.istockphoto.com/id/1339686801/photo/cloud-computing.jpg?s=2048x2048&w=is&k=20&c=NKi1-84KT0XpLKfN1-a6XX7Lp_mS54yz6n8KIrkCrko=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 .hero-area {
   text-align: center;
